@@ -1,0 +1,27 @@
+div[class*='col'] {
+	background: rgba(149, 123, 190, 0.3);
+	border: 1px solid #957bbe;
+}
+.row {
+  background: #dadada;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+div[class*='col-sm'] {
+	background: rgba(128, 255, 167, 0.76);
+	border: 1px solid rgba(86, 216, 126, 0.9);
+}
+div[class*='col-md'] {
+	background: rgba(128, 189, 255, 0.76);
+	border: 1px solid rgba(95, 158, 226, 0.76);
+}
+div[class*='col-lg'] {
+	background:  rgba(255, 128, 128, 0.76);
+	border: 1px solid rgba(224, 89, 89, 0.76);
+}
+div[class*='col-xl'] {
+	background:  rgba(255, 251, 128, 0.76);
+	border: 1px solid rgba(241, 236, 79, 0.76);
+}
+
+

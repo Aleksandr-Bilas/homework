@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 530px;
+    margin: 0 auto ;
+}
+b{
+    color: #21cbca;
+}
+th{
+    border-bottom: 1px solid lightgray;
+}
+p1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+p2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+p3{
+    display: block;
+    justify-content: center;
+    margin: 20px auto;
+}
+.info{
+    display: grid;
+    text-align: justify;
+}

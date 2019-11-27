@@ -1,0 +1,80 @@
+@font-face{font-family: 'Solomon';
+	src: url('fonts/solomon_sans_normal.woff2') format('woff2'),
+	url('fonts/solomon_sans_normal.woff') format('woff');
+
+}
+body{
+	font-family: 'Solomon'; 
+	color: violet;
+	background: #6449b0; 
+	padding: 20px 20px 10px 20px; 
+	width: 300px; 
+	margin: 0 auto;		
+}
+.line{
+	background-color: white;
+	height: 7px;
+	border: none;
+	width: 100%;
+}
+.screen{
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.block{
+    display: inline-block;
+	color: rgba(255, 255, 255, 0.5);
+	width: 20px; 
+	height: 20px; 
+	border-radius: 2px;
+    float: left;
+    margin-right: 5px;
+}
+.text{
+	float: left;
+	padding: 7px;
+	color: white;
+	font-size: 16px;
+}
+ .conteiner{
+ display: flex;
+ justify-content: center;
+margin: 0 auto;
+} 
+.booked{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.selected{
+	border: 2px solid white;
+	background-color: white;
+}
+.avaliable{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.place{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.place_group{
+	display: flex;
+	flex-direction: row;
+}
+.top{
+	margin: 0;
+}

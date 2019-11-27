@@ -1,0 +1,53 @@
+body{
+	font-family: "Poppins", sans-serif;
+	color:  #3e3e3e;
+	width: 900px;
+	margin: 10px auto;
+	border: 1px dashed #7fa446;
+	padding: 20px 30px;
+}
+header{
+	color: #7fa446;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+}
+.date{
+	margin-top: 0;
+}
+.lunch{
+	margin-bottom: 0;
+}
+.Smoothies{
+	color: #7fa446;
+
+}
+.title{
+	color: black;
+	font-weight: 500;
+
+}
+.images{
+	width: 80px;
+}
+.cost{
+	color: red;
+	font-style:  italic;
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.resept{
+	font-weight: 200;
+	font-style:  italic;
+	margin-top: 0;
+}
+.link{
+	color: #7fa446;
+	text-decoration:underline;
+}
+.line{
+	color: #7fa446;
+    border: 1px dashed #7fa446;
+}

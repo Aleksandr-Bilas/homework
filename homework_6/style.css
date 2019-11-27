@@ -1,0 +1,162 @@
+@font-face{
+	font-family: 'Solomon';
+	src: url('fonts/solomon_sans_normal.woff2') format('woff2'),
+	url('fonts/solomon_sans_normal.woff') format('woff');
+}
+body{
+	margin: 0;
+	font-family: 'Solomon';
+}
+}
+.header_bar{
+	background: lightgray;
+	display: flex;
+}
+.container{
+	padding: 5px;
+	font-weight: 600;
+	background-color: #d4d9e0;
+	width: 100%;
+	margin: 0 auto;
+/*	border: 1px solid black;*/
+	display: flex;
+	justify-content: space-around;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin-right: 10px;
+}
+li:last-of-type{
+	margin-right: 0;
+}
+.header_bar-contacts{
+	display: flex;
+}
+.header-contacts{
+	margin-right: 20px;
+}
+.cities a{
+	text-transform: uppercase;
+	color: #244c8e;
+	letter-spacing: 0.3px;
+	padding: 3px 8px;
+	display: block;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.cities a:hover{
+	background: white;
+}
+.cities a.active{
+	background: #244c8e;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+.header-contacts a{
+	text-transform: lowercase;
+}
+.header_tel::before{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-image: url('header_images/header_tel.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.header_email::before{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-image: url('header_images/header_email.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.page_header-bar{
+	background: white;
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.main_menu-navigation{
+	width: 1355px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	background-image: url('header_images/logo.svg');
+	display: flex;
+    width: 30px;
+    height: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-color: transparent;
+}
+.window_navigation li{
+/*	width: 65px;
+	padding: 5px;
+	padding-left: 30px;*/
+	color: #244c8e;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.window_navigation a.logo_evo{
+	background-image: url('header_images/logo__evo.svg');
+	display: flex;
+    width: 60px;
+    height: 25px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-color: transparent;
+    margin: 5px 15px;
+    margin-right: 65px;
+}
+.window_navigation a.consultation{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.3px;
+	padding: 2px 4px;
+	display: block;
+	border-radius: 8px;
+	transition: 0.3s;
+	width: 112px;
+	background:  #4ed401;
+	margin-left: -30px;
+}
+.window_navigation a.consultation:hover{
+	background:  #54e600;
+	color: white;
+}
+.window_navigation a.navigation{
+	display: block;
+    color: #244c8e;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 4px 7px;
+    text-transform: lowercase;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.window_navigation a.navigation:hover{
+	background:  #d4d9e0;
+	color: white;
+}

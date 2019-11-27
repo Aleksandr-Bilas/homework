@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header_bar">
+			<div class="container">
+				<nav>
+					<ul class="cities">
+						<li>
+							<a href="" class="active">Киев</a>
+						</li>
+						<li>
+							<a href="">Одесса</a>
+						</li>
+						<li>
+							<a href="">Днепр</a>
+						</li>
+						<li>
+							<a href="">Харьков</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header_bar-contacts">
+					<ul class="header-contacts cities">
+						<li>
+							<a href="tel:+38(094)123123" class="header_tel">+38 (094) 123 123</a>
+						</li>
+						<li>
+							<a href="mailto:ithillel@gmail.com" class="header_email">ithillel@gmail.com</a>
+						</li>
+					</ul>
+					<nav>
+						<ul class="lang cities">
+							<li>
+								<a href="" class="active">ukr</a>
+							</li>
+							<li>
+								<a href="">rus</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+		<!-- <header> -->
+			<div class="page_header-bar">
+
+				<nav  class="container">
+					<a href="https://ithillel.ua/" class="logo"></a>	
+					<ul class="window_navigation">
+						<li><a href="" class="navigation">школа</a></li>
+						<li><a href="" class="navigation">курсы</a></li>
+						<li><a href="" class="navigation">трудоустройство</a></li>
+						<li><a href="" class="navigation">вебинары</a></li>
+						<li><a href="" class="navigation">блог</a></li>
+						<li><a href="" class="navigation">контакты</a></li>
+						<li><a href="https://evo.ithillel.ua" class="logo_evo"></a></li>
+						<li><a href="" class="consultation" align="center">бесплатная консультация</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<div class="main">
+		<div class="container">
+			<div class="yellow yellow_first">
+				<div class="green">
+					<img src="images/maket/logo-intro.svg" alt="" class="hillel_img">
+					<p class="dream">Учись ради мечты!</p>
+					<div class="line"></div>
+					<button type="button" class="btn_cours"  data-target="#regis">ЗАПИСАТЬСЯ НА КУРС</button>
+				</div>
+				<div class="green">
+					<img src="images/maket/map-ukraine.svg" class="map_img">
+					<a href="" class="map_location">
+						<div class="map_sity kiev">
+							<p class="map_text">Киев</p>
+							<span class="point loc"></span>
+						</div>
+					</a>
+					<a href="" class="map_location">
+						<div class="map_sity kharkov">
+							<p class="map_text">Харьков</p>
+							<span class="point"></span>
+						</div>
+					</a>
+					<a href="" class="map_location">
+						<div class="map_sity dnepr">
+							<p class="map_text">Днепр</p>
+							<span class="point"></span>
+						</div>
+					</a>
+					<a href="" class="map_location">
+						<div class="map_sity odessa">
+							<p class="map_text">Одесса</p>
+							<span class="point"></span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="yellow yellow_second">
+				<div class="green rocket">
+					<p class="eight">8000</p>
+					<p class="graduates">Выпускников 
+					школы</p>
+				</div>
+				<div class="green youtube">
+					<p class="youtube_button">Самый крупный в стране Youtube-канал</p>
+					<p class="youtube_description">среди IT-школ, которые занимаются обучением в offline режиме</p>
+				</div>
+			</div>
+			<div class="yellow yellow_trids">
+				<div class="green_info"><p class="age">6<span class="six_years">лет</span></p>
+					<p class="six-years_discription">Школа предоставляет образовательные услуги</p></div>
+					<div class="green_info"><p class="visitors">2000<span class="six_years">+</span></p>
+						<p class="six-years_discription">человек в день посищают сайт школы</p></div>
+						<div class="green_info"><p class="city">4<span class="six_years">города</span></p>
+							<p class="six-years_discription">Киев, Одесса, Днепр, Харьков</p></div>
+							<div class="green_info"><p class="coaches">100<span class="six_years">+</span></p>
+							<p class="six-years_discription">преподавателей-практиков</p></div>
+							<div class="green_info"><p class="employment">43<span class="six_years">%</span></p>
+							<p class="six-years_discription">трудоустроеных студентов</p></div>
+							<div class="green_info"><p class="salary">21600<span class="six_years">грн/мес</span></p>
+							<p class="six-years_discription">со старта составила рекордная зарплата Выпускника</p></div>
+						</div>
+					</div>
+				</div>
+				<form action="/" method="post" class="form_main" id="regis">
+					<div class="modal_form">
+						<header class="modal_head">
+							<h3 class="request">Заявка на регистрацию</h3>
+							<button class="btn_close"><img src="form_images/modal_close.svg" alt=""></button>
+						</header>
+						<div class="modal_info">
+							<p class="request_bottom">Оставьте ваши контактные данные, и мы вам обязательно перезвоним!</p>
+						</div>
+						<div class="modal_main">
+							<div class="form_data">
+								<label for="username">
+									<input id="username" type="text" value="" placeholder="Марк" required>
+									<span class="circle"></span>
+									<p>Имя</p>
+								</label>
+							</div>
+							<div class="form_data">			<label for="email">
+									<input id="email" type="email" placeholder="mark@gmail.com" required>
+									<span class="circle"></span>
+									<p>Email</p>
+								</label>
+							</div>
+							<div class="form_data">
+								<label for="password">
+									<input id="password" type="text" placeholder="+38 (xxx) xxx-xx-xx" required pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+									<span class="circle"></span>
+								<p>Телефон</p>
+								</label>
+							</div>
+							<div class="form_data">
+								<label for="cities">
+									<select name="cities" class="select_form">
+										<option value="">Киев</option>
+										<option value="">Днепр</option>
+										<option value="">Харьков</option>
+										<option value="">Львов</option>
+										<!-- <ul class="form_cities">
+											<li>Киев</li>
+											<li>Днепр</li>
+											<li>Харьков</li>
+											<li>Львов</li>
+										</ul> -->
+									</select>
+									<span class="circle circle_last"></span>
+								<p>Город</p>
+								</label>
+							</div>
+							<div class="form_data">
+								<label for="courses">
+									<select name="courses" class="select_form" placeholder="Выберите" required onclick="disableTrigger()">
+										<option value="" disabled selected id="disable">Выберите</option>
+										<option value="">Front-End</option>
+										<option value="">Java</option>
+										<option value="">PHP</option>
+										<!-- <ul class="form_course">
+											<li>Front-End</li>
+											<li>Java</li>
+											<li>PHP</li>
+										</ul> -->
+									</select>
+									<span class="circle"></span>
+								<p>Курс</p>
+								</label>
+							</div>
+							<footer>
+								<button type="submit" class="btn_primary">Оставить заявку</button>
+							</footer>
+						</div>
+					</form>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+			</body>
+			</html>
